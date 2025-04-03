@@ -44,7 +44,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             JetpackComposeTheme {
-                MyApp(modifier = Modifier.fillMaxSize())
+               // MyApp(modifier = Modifier.fillMaxSize())
+               // ScopeFunctionExample()
+                WellnessScreen()
             }
         }
     }
